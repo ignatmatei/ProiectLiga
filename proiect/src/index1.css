@@ -1,0 +1,319 @@
+#Partajare{
+position: absolute;
+width: 659px;
+height: 133px;
+left: 55px;
+top: 288px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 900 !important;
+font-size: 43px;
+line-height: 121.1%;
+/* or 52px */
+
+text-align: center;
+
+color: #252F65;
+
+}
+#Platforma{
+    position: absolute;
+width: 535px;
+height: 53px;
+left: 104px;
+top: 406px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #252F65;
+}
+#mainImage{
+ position: absolute;
+width: 647px;
+height: 647px;
+left: 694px;
+top: 78px;
+
+}
+#BunicButon{
+    position: absolute;
+width: 286px;
+height: 65px;
+left: 228px;
+top: 479px;
+
+}
+#ParentButon{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #6F3096;
+border-radius: 5px;
+}
+#textId{
+    position: absolute;
+left: 17.83%;
+right: 17.48%;
+top: 30.77%;
+bottom: 18.46%;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+}
+#NavImg{
+position: absolute;
+width: 197px;
+height: 56px;
+left: 45px;
+top: 50px;
+}
+#Login{
+    position: absolute;
+left: 0%;
+right: 66.17%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 25px;
+
+color: #06114F;
+
+}
+#Creare{
+    position: absolute;
+left: 44.28%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 25px;
+
+color: #06114F;
+}
+#RecMov{
+    position: absolute;
+width: 1469px;
+height: 673px;
+left: -4px;
+top: 786px;
+
+background: #6F3096;
+}
+#RecAlb{
+    position: absolute;
+width: 945px;
+height: 458px;
+left: 242px;
+top: 897px;
+
+background: #FFFFFF;
+box-shadow: 0px 10px 30px rgba(38, 50, 56, 0.5);
+border-radius: 21px;
+}
+#Tupeu{
+    position: absolute;
+width: 389px;
+height: 125px;
+left: 290px;
+top: 1004px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 121.1%;
+/* or 39px */
+
+
+color: #252F65;
+
+}
+#TrimiteMail{
+    position: absolute;
+width: 333px;
+height: 90px;
+left: 290px;
+top: 1101px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 121.1%;
+/* or 27px */
+
+
+color: #252F65;
+
+}
+#Descriere{
+    position: absolute;
+width: 103.38px;
+height: 19.49px;
+left: 743.4px;
+top: 972px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+color: #06114F;
+
+}
+#Informatii{
+    box-sizing: border-box;
+
+position: absolute;
+width: 353.68px;
+height: 40.42px;
+left: 743.54px;
+top: 996.88px;
+
+border: 1px solid #06114F;
+border-radius: 5px;
+}
+#Formate{
+    position: absolute;
+width: 246.23px;
+height: 34.61px;
+left: 743.15px;
+top: 1061.38px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+
+color: #06114F;
+   
+}
+#MostViewed{
+    position: absolute;
+width: 231px;
+height: 45px;
+left: 69px;
+top: 1526px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+text-align: center;
+}
+#Trade{
+    position: absolute;
+width: 418px;
+height: 369px;
+top: 1633px;
+background: url(imagini/trade.png);
+border-radius: 55px;
+}
+#Uno{
+    position: absolute;
+width: 412px;
+height: 364px;
+left: 503px;
+top: 1634px;
+
+background: url(imagini/uno.png);
+border-radius: 53px;
+}
+#Taskuri{
+    position: absolute;
+width: 418px;
+height: 363px;
+left: 968px;
+top: 1635px;
+
+background: url(imagini/15+taskuri.png);
+border-radius: 46px;
+}
+#Footer{
+    position: absolute;
+width: 1496px;
+height: 174px;
+left: -39px;
+top: 2051px;
+
+background: #06114F;
+}
+#Insta{
+    position: absolute;
+width: 21px;
+height: 24px;
+left: 601px;
+top: 2094px;
+
+background: url(imagini/insta.png);
+}
+#Twitch{
+    position: absolute;
+width: 21px;
+height: 24px;
+left: 701px;
+top: 2094px;
+
+background: url(imagini/twitch.png);
+}
+#Facebook{
+    position: absolute;
+width: 21px;
+height: 24px;
+left: 801px;
+top: 2094px;
+
+background: url(imagini/facebook.png);
+}
+#Copyright{
+    position: absolute;
+width: 1440px;
+height: 52px;
+left: -11px;
+top: 2135px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 121.1%;
+/* or 24px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+#Group4{
+    position: absolute;
+width: 201px;
+height: 25px;
+left: 1140px;
+top: 66px;
+
+}
