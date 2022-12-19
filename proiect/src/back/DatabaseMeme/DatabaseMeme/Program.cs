@@ -22,9 +22,14 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//uncomment this line for SqlServer 
+//builder.Services.AddDbContext<MemeDbContext>(
+//       options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
 
 builder.Services.AddDbContext<MemeDbContext>(
-       options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
+       options => options.UseInMemoryDatabase("MemeDB")
+       );
+
 
 var app = builder.Build();
 app.UseCors("AllowAll");

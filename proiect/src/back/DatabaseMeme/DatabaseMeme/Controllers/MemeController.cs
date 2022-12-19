@@ -20,16 +20,16 @@ namespace DatabaseMeme.Controllers
             _context = context;
         }
 
-        // GET: api/Meme
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Meme>>> GetMemes()
-        {
-          if (_context.Memes == null)
-          {
-              return NotFound();
-          }
-            return await _context.Memes.ToArrayAsync();
-        }
+        //// GET: api/Meme
+        //[HttpGet]
+        //public async Task<ActionResult<IEnumerable<Meme>>> GetMemes()
+        //{
+        //  if (_context.Memes == null)
+        //  {
+        //      return NotFound();
+        //  }
+        //    return await _context.Memes.ToArrayAsync();
+        //}
 
         // GET: api/Meme/5
         [HttpGet("{id}")]
@@ -84,16 +84,20 @@ namespace DatabaseMeme.Controllers
         // POST: api/Meme
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Meme>> PostMeme(Meme meme)
+        public async Task<ActionResult<Meme>> PostMeme(MemeData meme)
         {
           if (_context.Memes == null)
           {
               return Problem("Entity set 'MemeDbContext.Memes'  is null.");
           }
-            _context.Memes.Add(meme);
+            var m = new Meme();
+            m.Id = meme.Id;
+            m.Description = meme.Description;
+            m.IdUser = meme.IdUser;
+            _context.Memes.Add(m);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetMeme", new { id = meme.Id }, meme);
+            return CreatedAtAction("GetMeme", new { id = m.Id }, m);
         }
 
         // DELETE: api/Meme/5

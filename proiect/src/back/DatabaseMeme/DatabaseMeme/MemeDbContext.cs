@@ -20,8 +20,7 @@ public partial class MemeDbContext : DbContext
     public virtual DbSet<Useri> Useris { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=MemeDB;Integrated Security=SSPI;TrustServerCertificate=True;");
+        => optionsBuilder.UseInMemoryDatabase("MemeDB");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
